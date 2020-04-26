@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link href="favicon.ico" rel="shortcut icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate-css/animate.min.css" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    img {
+      vertical-align: middle;
+    }
+    
+    /* Position the image container (needed to position the left and right arrows) */
+    .container {
+      position: relative;
+    }
+    
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    }
+    
+    /* Add a pointer when hovering over the thumbnail images */
+    .cursor {
+      cursor: pointer;
+    }
+    
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 40%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    /* Container for image text */
+    .caption-container {
+      text-align: center;
+      background-color: #222;
+      padding: 2px 16px;
+      color: white;
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Six columns side by side */
+    .column {
+      float: left;
+      width: 16.66%;
+    }
+    
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+      opacity: 0.6;
+    }
+    
+    .active,
+    .demo:hover {
+      opacity: 1;
+    }
+    </style>
+    
+</head>
+
+<body>
+  <div id="preloader"></div>
+
+  <!--==========================
+  Hero Section
+  ============================-->
+  <section id="hero">
+    <div class="hero-container">
+      <div class="wow fadeIn">
+        <div class="hero-logo">
+          <img class="" src="img/logo2.png" alt="Imperial" height="10%" width="30%" >
+        </div>
+
+        <h1>Welcome to Thapar Societies</h1>
+        <h2>We create <span class="rotating">TECHNOLOGY,ART,DRAMA,MUSIC</span></h2>
+        <div class="actions">
+          <a href="login.html" class="btn-get-started">Sign in</a>
+          <a href="#services" class="btn-services">Our Societies</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+  Header Section
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <a href="#hero"><img src="img/logo2.png" alt="" title="" /></img></a>
+        <!-- Uncomment below if you prefer to use a text image -->
+        <!--<h1><a href="#hero">Header 1</a></h1>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#hero">Home</a></li>
+          <li><a href="#services-1">Upcoming Events</a></li>
+          <li class="menu-has-children"><a href="#services">Societies</a>
+            <ul>
+              <li><a href="Owasp.html">Owasp</a></li>
+              <li class="menu-has-children"><a href="#">Drop Down 2</a>
+              </li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Drop Down 5</a></li>
+            </ul>
+            
+            <li><a href="#portfolio">Video Gallery</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#team">Team</a></li>
+          </li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <!-- #nav-menu-container -->
+    </div>
+  </header>
+
+  <div>
+
+  </div>
+  <br>
+
+    <!--==========================
+   SlideShow
+  ============================-->
+
+  <section id="services-1">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">Upcoming Events</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description"> </p>
+        </div>
+      </div>
+
+  <div class="container">
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <img src="img/img_mountains_wide.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="img/img_snow_wide.jpg"" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="img/img_snow_wide.jpg" style="width:100%">
+    </div>
+      
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <img src="img/img_snow_wide.jpg"" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="img_nature_wide.jpg" style="width:100%">
+    </div>
+      
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="img/img_snow_wide.jpg" style="width:100%">
+    </div>
+      
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="img_nature_wide.jpg style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/img_snow_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/img_snow_wide.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+      </div>    
+      <div class="column">
+        <img class="demo cursor" src="img/img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+      </div>
+    </div>
+  </div>
+</section>
+  
+  
+  
+  <!--==========================
+   Section
+  ============================-->
+  <section id="services">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">Societies</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description">Various Societies Of Thapar University </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 service-item">
+          <a class="service-icon" href="Owasp.html"><i class="fa fa-desktop"></i></a>
+          <h4 class="service-title"><a href="Owasp.html">Owasp</a></h4>
+          <p class="service-description">The OWASP student chapter provides an opportunity to the students to work and develop skills in the field of web and mobile applications, and computer information security</p>
+        </div>
+        <div class="col-md-4 service-item">
+          <a class="service-icon" href="tnt.html" ><i class="fa fa-photo"></i></a>
+          <h4 class="service-title"><a href="tnt.html">Thapar Nautanki Team</a></h4>
+          <p class="service-description">Thapar Nautanki Team is a street play group from Thapar Institute of Engg & Tech, Patiala. It is a team of students who come together & take a stand on social issues prevailing in the society. We try to present all the effective points via 'nukkad natak'.
+          </p>
+        </div>
+        <div class="col-md-4 service-item">
+          <a class="service-icon" href="adventure club.html"><i class="fa fa-road"></i></a>
+          <h4 class="service-title"><a href="adventure club.html">Adventure-Club</a></h4>
+          <p class="service-description">Adventure Club at Thapar Institute of Engineering and Technology is the forum for adventure enthusiasts, trekkers, climbers and armchair mountaineers in the student community. It works to develop the spirit of adventure in Thaparians. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--==========================
+  Porfolio Section
+  ============================-->
+  <section id="portfolio">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">Video Gallery</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description">Campus Tour</p>
+        </div>
+      </div>
+      <div>
+       ` <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="100%" height="600" type="text/html" src="https://www.youtube.com/embed/Ly7cj5ru8XY?autoplay=1&fs=1&iv_load_policy=1&showinfo=0&rel=1&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"><div><small><a href="https://youtubeembedcode.com/es/">youtubeembedcode.com/es/</a></small></div><div><small><a href="http://add-link-exchange.com">Add-link-exchange</a></small></div><div><small><a href="https://youtubeembedcode.com/de/">youtubeembedcode.com/de/</a></small></div><div><small><a href="http://add-link-exchange.com">Add-link-exchange</a></small></div><div><small><a href="https://youtubeembedcode.com/en">youtubeembedcode en</a></small></div><div><small><a href="http://add-link-exchange.com">www://add-link-exchange.com</a></small></div><div><small><a href="https://youtubeembedcode.com/en">youtubeembedcode.com/en/</a></small></div><div><small><a href="http://add-link-exchange.com">www://add-link-exchange.com</a></small></div></iframe>       
+  </section>
+
+  <!--==========================
+  Testimonials Section
+  ============================-->
+  <section id="testimonials">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">Testimonials</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description">Erdo lide, nora porodo filece, salvam esse se, quod concedimus ses haec dicturum fuisse</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="profile">
+            <div class="pic"><img src="img/client-1.jpg" alt=""></div>
+            <h4>Saul Goodman</h4>
+            <span>Lawless Inc</span>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="quote">
+            <b><img src="img/quote_sign_left.png" alt=""></b> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper. <small><img src="img/quote_sign_right.png" alt=""></small>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-9">
+          <div class="quote">
+            <b><img src="img/quote_sign_left.png" alt=""></b> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis architecto beatae. <small><img src="img/quote_sign_right.png" alt=""></small>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="profile">
+            <div class="pic"><img src="img/client-2.jpg" alt=""></div>
+            <h4>Sara Wilsson</h4>
+            <span>Odeo Inc</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--==========================
+  Team Section
+  ============================-->
+  <section id="team">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">Our Team</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><img src="img/team-1.jpg" alt=""></div>
+            <h4>Walter White</h4>
+            <span>Chief Executive Officer</span>
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><img src="img/team-2.jpg" alt=""></div>
+            <h4>Sarah Jhinson</h4>
+            <span>Product Manager</span>
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><img src="img/team-3.jpg" alt=""></div>
+            <h4>William Anderson</h4>
+            <span>CTO</span>
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><img src="img/team-4.jpg" alt=""></div>
+            <h4>Amanda Jepson</h4>
+            <span>Accountant</span>
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--==========================
+  Subscrbe Section
+  ============================-->
+  <section id="subscribe">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-8">
+          <h3 class="subscribe-title">Subscribe For Updates</h3>
+          <p class="subscribe-text">Join our 1000+ subscribers and get access to the latest tools, freebies, product announcements and much more!</p>
+        </div>
+        <div class="col-md-4 subscribe-btn-container">
+          <a class="subscribe-btn" href="Owasp.html">Subscribe Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+  Contact Section
+  ============================-->
+  <section id="contact">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">Contact Us</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 col-md-push-2">
+          <div class="info">
+            <div>
+              <i class="fa fa-map-marker"></i>
+              <p>A108 Adam Street<br>New York, NY 535022</p>
+            </div>
+
+            <div>
+              <i class="fa fa-envelope"></i>
+              <p>info@example.com</p>
+            </div>
+
+            <div>
+              <i class="fa fa-phone"></i>
+              <p>+1 5589 55488 55s</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-5 col-md-push-2">
+          <div class="form">
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+  Footer
+============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="copyright">
+            &copy; Copyright <strong>Albatross</strong>. All Rights Reserved
+          </div>
+          <div class="credits"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- Required JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/morphext/morphext.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/stickyjs/sticky.js"></script>
+  <script src="lib/easing/easing.js"></script>
+
+  <!-- Template Specisifc Custom Javascript File -->
+  <script src="js/custom.js"></script>
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
+
+  <script src="contactform/contactform.js"></script>
+
+
+
+</body>
+
+</html>
